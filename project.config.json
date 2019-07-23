@@ -13,8 +13,8 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.7.7",
-	"appid": "wx1e7254f56d960775",
-	"projectname": "%E5%B0%8F%E7%BB%84%E4%BD%9C%E4%B8%9A",
+	"appid": "wxbddba6bc1647fa46",
+	"projectname": "WeChatApp",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

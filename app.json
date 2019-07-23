@@ -1,48 +1,49 @@
 {
   "pages": [
-    "pages/shangcheng/shouye",
-    "pages/shangcheng/search/search",
-    "pages/tuijian/tuijian",
-    "pages/changliao/changliao",
-    "pages/dingzhi/dingzhi"
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/chat/chat",
+    "pages/logs/logs",
+    "pages/custom/custom"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#000",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "white"
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
   },
+  "sitemapLocation": "sitemap.json",
 
 "tabBar": {
- "selectedColor": "#6dc5cf",
- "color": "#cccccc",
+  "backgroundColor": "#fff",
+  "color": "#cccccc",
+  "selectedColor": "#6dc5cf",
   "list": [
     {
-    "pagePath": "pages/shangcheng/shouye",
-    "text": "商城",
-    "iconPath": "images/system/商城.png",
-    "selectedIconPath": "images/system/商城1.png"
-  },
-  {
-    "pagePath": "pages/tuijian/tuijian",
-    "text": "推荐",
-    "iconPath": "images/system/推荐.png",
-    "selectedIconPath": "images/system/推荐1.png"
-  },
-  {
-    "pagePath": "pages/changliao/changliao",
-    "text": "畅聊",
-    "iconPath": "images/system/畅聊.png",
-    "selectedIconPath": "images/system/畅聊1.png"
-  },
-  {
-    "pagePath":"pages/dingzhi/dingzhi",
-    "text": "定制",
-    "iconPath": "images/system/定制.png",
-    "selectedIconPath": "images/system/定制1.png"
-  }
+      "pagePath": "pages/index/index",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index1.png",
+      "text": "商城"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "iconPath": "images/recommend.png",
+      "selectedIconPath": "images/recommend1.png",
+      "text": "推荐"
+    },
+    {
+      "pagePath": "pages/chat/chat",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat1.png",
+      "text": "畅聊"
+    },
+    {
+      "pagePath": "pages/custom/custom",
+      "iconPath": "images/custom.png",
+      "selectedIconPath": "images/custom1.png",
+      "text": "定制"
+    }
   ]
-},
+}
 
-  "sitemapLocation": "sitemap.json"
 }
