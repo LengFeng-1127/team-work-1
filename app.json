@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/shangcheng/shouye",
+    "pages/shangcheng/search/search",
+    "pages/tuijian/tuijian",
+    "pages/changliao/changliao",
+    "pages/dingzhi/dingzhi"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "white"
+  },
+
+"tabBar": {
+ "selectedColor": "#6dc5cf",
+ "color": "#cccccc",
+  "list": [
+    {
+    "pagePath": "pages/shangcheng/shouye",
+    "text": "商城",
+    "iconPath": "images/system/商城.png",
+    "selectedIconPath": "images/system/商城1.png"
+  },
+  {
+    "pagePath": "pages/tuijian/tuijian",
+    "text": "推荐",
+    "iconPath": "images/system/推荐.png",
+    "selectedIconPath": "images/system/推荐1.png"
+  },
+  {
+    "pagePath": "pages/changliao/changliao",
+    "text": "畅聊",
+    "iconPath": "images/system/畅聊.png",
+    "selectedIconPath": "images/system/畅聊1.png"
+  },
+  {
+    "pagePath":"pages/dingzhi/dingzhi",
+    "text": "定制",
+    "iconPath": "images/system/定制.png",
+    "selectedIconPath": "images/system/定制1.png"
+  }
+  ]
+},
+
+  "sitemapLocation": "sitemap.json"
+}

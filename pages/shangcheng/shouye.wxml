@@ -1,0 +1,12 @@
+ <view class='search'>
+    <navigator>
+      <view class='searchmain'>
+        <view class='searchicon'>
+          <icon color='#b2b2b2' size='30rpx' type='search'></icon>
+        </view>
+        <view class='searchtext'>
+          <text>{{searchtext}}</text>
+        </view>
+      </view>
+    </navigator>
+  </view>
