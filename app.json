@@ -1,0 +1,49 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/recommend/recommend",
+    "pages/chat/chat",
+    "pages/logs/logs",
+    "pages/custom/custom"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "首页",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+"tabBar": {
+  "backgroundColor": "#fff",
+  "color": "#cccccc",
+  "selectedColor": "#6dc5cf",
+  "list": [
+    {
+      "pagePath": "pages/index/index",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index1.png",
+      "text": "商城"
+    },
+    {
+      "pagePath": "pages/recommend/recommend",
+      "iconPath": "images/recommend.png",
+      "selectedIconPath": "images/recommend1.png",
+      "text": "推荐"
+    },
+    {
+      "pagePath": "pages/chat/chat",
+      "iconPath": "images/chat.png",
+      "selectedIconPath": "images/chat1.png",
+      "text": "畅聊"
+    },
+    {
+      "pagePath": "pages/custom/custom",
+      "iconPath": "images/custom.png",
+      "selectedIconPath": "images/custom1.png",
+      "text": "定制"
+    }
+  ]
+}
+
+}

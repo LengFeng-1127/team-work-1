@@ -1,0 +1,67 @@
+<!--pages/index/index.wxml-->
+<view class='search'>
+  <view class='search_item'>
+    <image src="{{searchicon}}" bindtap='bindSearchTap' />
+    <input placeholder='大家都在搜 黑头' placeholder-class='center' placeholder-style='color:#acacac;' bindblur='no_focus' bindfocus='focus' />
+  </view>
+</view>
+
+<view class='test'>
+  <view class="itest">
+    <image src="{{line}}" style='width:40rpx;height:50rpx;'></image>
+    <text style='font-size:40rpx;' decode="{{true}}">测一测&nbsp;</text>
+  </view>
+  <image class="img" src="{{test_img}}" style='width:200rpx;height:200rpx;' bindtap='bindViewTap'></image>
+</view>
+
+<view class='test'>
+  <view class="itest">
+    <image src="{{line}}" style='width:40rpx;height:50rpx;'></image>
+    <text style='font-size:40rpx;'>肤质历史</text>
+  </view>
+  <image class="img" src="{{history}}" style='width:200rpx;height:200rpx;'></image>
+</view>
+
+<view class='btn'>
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/class.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>分类</view>
+  </view>
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/skin.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>护肤</view>
+  </view>
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/beauty.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>美妆</view>
+  </view>
+</view>
+
+<view class='btn'>
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/brand.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>品牌</view>
+  </view>
+
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/hot.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>热门</view>
+  </view>
+
+  <view class='btn_c'>
+    <button class='btn1'>
+      <image class='btnImg' src='../../images/new.png' mode='widthFix'></image>
+    </button>
+    <view class='btnText'>新品</view>
+  </view>
+</view>
